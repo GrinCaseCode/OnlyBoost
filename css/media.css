@@ -1,0 +1,868 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1640px) {
+	.header__right {
+		max-width: 405px;
+	}
+	.billbord__title {
+		font-size: 91px;
+		line-height: 63px;
+		padding-bottom: 12px;
+		padding-left: 25px;
+	}
+	.billbord__subtitle {
+		font-size: 59px;
+		line-height: 75px;
+		padding-left: 131px;
+	}
+	.billbord__descr {
+		font-size: 43px;
+		line-height: 66px;
+	}
+	.billbord__descr img {
+		max-width: 160px;
+	}
+	.billbord {
+		height: 445px;
+	}
+	.billbord__logo img {
+		max-width: 350px;
+	}
+	.bage-billbord {
+		width: 85px;
+		height: 85px;
+	}
+	.title-section {
+		font-size: 42px;
+		line-height: 65px;
+	}
+	.item-advantage__content {
+		font-size: 20px;
+		line-height: 33px;
+	}
+	.item-advantage__title {
+		font-size: 28px;
+		line-height: 44px;
+	}
+	.head-section__bigtitle {
+		font-size: 215px;
+		line-height: 290px;
+	}
+	.head-section__bigtitle_small {
+		font-size: 66px;
+		line-height: 78px;
+	}
+	.item-achievement__value {
+		font-size: 85px;
+		line-height: 78px;
+	}
+	.item-achievement__title {
+		font-size: 28px;
+		line-height: 44px;
+		margin-bottom: 11px;
+	}
+	.item-achievement p {
+		font-size: 21px;
+		line-height: 32px;
+	}
+	.slider-catalog .swiper-slide {
+		width: 340px;
+		padding: 0px 10px;
+	}
+	.price-main {
+		font-size: 40px;
+		line-height: 36px;
+	}
+	.list-page {
+		font-size: 18px;
+		line-height: 34px;
+	}
+	.price-main span {
+		font-size: 13px;
+		line-height: 12px;
+	}
+	.item-feature {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.item-feature span {
+		font-size: 14px;
+		line-height: 14px;
+		margin-left: 4px;
+	}
+	.item-catalog__title {
+		font-size: 23px;
+		line-height: 31px;
+		padding: 19px 15px;
+	}
+	.item-catalog__content {
+		padding: 15px;
+		padding-top: 5px;
+	}
+	.item-catalog__image {
+		height: 255px;
+	}
+	.title-big {
+		font-size: 90px;
+		line-height: 150px;
+	}
+	.row_news {
+		margin: 0 -15px;
+	}
+	.row_news > div {
+		padding: 0 15px;
+		margin-top: 20px;
+	}
+	body {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.item-news__title {
+		font-size: 25px;
+		line-height: 30px;
+		margin-bottom: 18px;
+	}
+	.bottom-button {
+		padding-top: 50px;
+	}
+	.section-news {
+		padding-bottom: 60px;
+	}
+	.billbord_inner .billbord__title {
+		font-size: 85px;
+		line-height: 130px;
+	}
+	.billbord_inner .billbord__subtitle {
+		font-size: 32px;
+		line-height: 33px;
+	}
+	.billbord__text {
+		font-size: 24px;
+		line-height: 37px;
+		margin-bottom: 35px;
+	}
+	.billbord_inner .billbord__content {
+		padding-top: 42px;
+	}
+	.billbord_inner {
+		height: 480px;
+	}
+	.item-question__content {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.item-question__head {
+		font-size: 28px;
+		line-height: 28px;
+	}	
+	.item-question {
+		margin-bottom: 50px;
+	}
+	.section-questions {
+		padding-bottom: 60px;
+	}
+	.copyright {
+		font-size: 24px;
+		line-height: 38px;
+	}
+	.list-payments li {
+		margin-right: 21px;
+	}
+	.footer {
+		font-size: 20px;
+		line-height: 35px;
+	}
+	.logo {
+		font-size: 43px;
+		line-height: 66px;
+	}
+	.footer .logo {
+		margin-bottom: 20px;
+	}
+	.scroll-down {
+		width: 225px;
+	}
+	.header {
+		padding-top: 20px;
+	}
+	.header__content {
+		padding-bottom: 25px;
+	}
+	.wrapper {
+		padding-top: 165px;
+	}
+}
+@media only screen and (max-width : 1400px) {
+	.item-advantage__icon img {
+		max-width: 65px;
+		max-height: 65px;
+	}
+	.item-advantage__icon {
+		margin-right: 20px;
+	}
+	.item-advantage__content {
+		font-size: 18px;
+		line-height: 29px;
+	}
+	.item-advantage__title {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	.title-section {
+		font-size: 36px;
+		line-height: 57px;
+	}
+	.head-section__bigtitle {
+		font-size: 183px;
+		line-height: 267px;
+	}
+	.head-section__bigtitle_small {
+		font-size: 51px;
+		line-height: 69px;
+	}
+	.head-section {
+		margin-top: 100px;
+	}
+	.item-logo {
+		height: 100px;
+	}
+	.slider-catalog .swiper-slide {
+		width: 379px;
+	}
+	.item-feature {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.item-catalog__content {
+		padding: 18px;
+		padding-top: 5px;
+	}
+	.title-big {
+		font-size: 76px;
+		line-height: 123px;
+	}
+	.link-big {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.header__right {
+		max-width: 355px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.logo-descr__value {
+		font-size: 30px;
+		line-height: 50px;
+		margin-right: 7px;
+	}
+	.logo {
+		font-size: 33px;
+		line-height: 48px;
+	}
+	.logo-descr {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	.scroll-down {
+		width: 175px;
+		font-size: 12px;
+	}
+	.logo-descr__text {
+		max-width: 140px;
+	}
+	.header__center {
+		margin: 0 15px;
+	}
+	.header__content {
+		padding-bottom: 15px;
+	}
+	.header {
+		padding-top: 10px;
+	}
+	.header__right {
+		max-width: 290px;
+	}
+	.wrapper {
+		padding-top: 125px;
+	}
+	.billbord__logo img {
+		max-width: 270px;
+	}
+	.billbord__title {
+		font-size: 64px;
+		line-height: 48px;
+	}
+	.billbord__subtitle {
+		font-size: 45px;
+		line-height: 63px;
+		padding-left: 70px;
+	}
+	.billbord__descr {
+		font-size: 28px;
+		line-height: 42px;
+	}
+	.billbord__descr img {
+		max-width: 130px;
+		margin-left: 15px;
+	}
+	.btn-page {
+		font-size: 26px;
+		line-height: 36px;
+		height: 47px;
+		padding: 0 35px;
+	}
+	.billbord {
+		height: 350px;
+	}
+	.billbord_inner .billbord__title {
+		font-size: 70px;
+		line-height: 105px;
+	}
+	.billbord_inner .billbord__subtitle {
+		font-size: 26px;
+		line-height: 26px;
+	}
+	.billbord__text {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 30px;
+	}
+	.billbord_inner {
+		height: 400px;
+	}
+	.item-question__head {
+		font-size: 23px;
+		line-height: 25px;
+	}
+	.item-question__content {
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.footer {
+		font-size: 17px;
+		line-height: 32px;
+	}
+	.copyright {
+		font-size: 19px;
+		line-height: 34px;
+		padding-top: 45px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.container {
+		max-width: 100%;
+	}
+	.hidden-mob {
+		display: none !important;
+	}
+	.header__right .btn-search,
+	.header__right .location-unit,
+	.scroll-down {
+		display: none;
+	}
+	.header__content {
+		padding: 0;
+		border: none;
+	}
+	.header__right {
+		justify-content: flex-end;
+	}
+	.header {
+		padding: 10px 0;
+	}
+	.wrapper {
+		padding-top: 75px;
+	}
+	.billbord__title {
+		font-size: 46px;
+		line-height: 30px;
+		padding-left: 0;
+	}
+	.billbord__logo img {
+		max-width: 220px;
+	}
+	.billbord__subtitle {
+		font-size: 30px;
+		line-height: 44px;
+		padding-left: 35px;
+	}
+	.bage-billbord {
+		width: 72px;
+		height: 72px;
+		top: 15px;
+		right: 15px;
+	}
+	.billbord__content {
+		padding: 20px 20px;
+	}
+	.billbord__descr {
+		font-size: 20px;
+		line-height: 35px;
+	}
+	.billbord__descr img {
+		max-width: 105px;
+		margin-left: 8px;
+	}
+	.billbord {
+		height: 280px;
+	}
+	.head-section__bigtitle {
+		font-size: 133px;
+		line-height: 225px;
+	}
+	.head-section__bigtitle_small {
+		font-size: 34px;
+		line-height: 44px;
+	}
+	.title-section {
+		font-size: 28px;
+		line-height: 43px;
+	}
+	.head-section {
+		margin-top: 65px;
+	}
+	.slider-catalog .swiper-controls {
+		padding-top: 40px;
+		padding-bottom: 65px;
+	}
+	.item-achievement__value {
+		font-size: 70px;
+		line-height: 62px;
+	}
+	.item-achievement__title {
+		font-size: 25px;
+		line-height: 34px;
+		margin-bottom: 9px;
+	}
+	.item-achievement p {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.item-achievement {
+		margin-bottom: 25px;
+	}
+	.section-achievements {
+		padding: 30px 0;
+	}
+	.container .slider-catalog {
+		margin-right: -15px;
+		margin-left: -10px;
+	}
+	.title-big {
+		font-size: 55px;
+		line-height: 79px;
+	}
+	.billbord_inner .billbord__subtitle {
+		font-size: 20px;
+		line-height: 22px;
+	}
+	.billbord_inner .billbord__title {
+		font-size: 54px;
+		line-height: 72px;
+	}
+	.billbord__text {
+		font-size: 17px;
+		line-height: 23px;
+		margin-bottom: 23px;
+	}
+	.btn-page {
+		font-size: 22px;
+		line-height: 34px;
+		height: 45px;
+	}
+	.billbord_inner {
+		height: 320px;
+	}
+	.item-question {
+		margin-bottom: 25px;
+	}
+	.item-question__head {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.item-question__content {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.section-questions {
+		padding-bottom: 25px;
+	}
+	.footer__col {
+		padding-top: 0;
+	}
+	.footer__descr {
+		margin-bottom: 15px;
+	}
+	.footer__right {
+		align-items: flex-start;
+	}
+	.copyright {
+		font-size: 18px;
+		line-height: 28px;
+		padding-top: 28px;
+	}
+	.footer .logo {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.item-question__head img {
+		max-width: 20px;
+		height: auto;
+	}
+	.header__center {
+		margin: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.billbord__title {
+		font-size: 32px;
+		line-height: 26px;
+	}
+	.billbord__subtitle {
+		font-size: 24px;
+		line-height: 39px;
+		padding-left: 18px;
+	}
+	.billbord__logo img {
+		max-width: 169px;
+	}
+	.bage-billbord {
+		width: 62px;
+		height: 62px;
+		top: 10px;
+		right: 10px;
+	}
+	.billbord__bottom {
+		display: block;
+	}
+	.billbord__descr {
+		margin-bottom: 10px;
+	}
+	.billbord > img {
+		object-position: 80% 50%;
+	}
+	.title-section {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.head-section::after {
+		margin-left: 10px;
+	}
+	.head-section__bigtitle {
+		font-size: 98px;
+		line-height: 188px;
+	}
+	.head-section__bigtitle_small {
+		font-size: 19px;
+		line-height: 28px;
+	}
+	.item-advantage__content {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.item-advantage__title {
+		font-size: 18px;
+		line-height: 29px;
+	}
+	.col-main {
+		width: 33%;
+		padding: 0 6px;
+	}
+	.row_logos {
+		margin: 0 -6px;
+	}
+	.item-logo {
+		height: 87px;
+		margin-top: 12px;
+	}
+	.row_logos > div:nth-child(n+10) {
+		display: none;
+	}
+	.slider-catalog .swiper-slide {
+		width: 340px;
+		padding: 0px 10px;
+	}
+	.price-main {
+		font-size: 40px;
+		line-height: 36px;
+	}
+	.list-page {
+		font-size: 18px;
+		line-height: 34px;
+	}
+	.price-main span {
+		font-size: 13px;
+		line-height: 12px;
+	}
+	.item-feature {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.item-feature span {
+		font-size: 14px;
+		line-height: 14px;
+		margin-left: 4px;
+	}
+	.item-catalog__title {
+		font-size: 23px;
+		line-height: 31px;
+		padding: 19px 15px;
+	}
+	.item-catalog__content {
+		padding: 15px;
+		padding-top: 5px;
+	}
+	.item-catalog__image {
+		height: 255px;
+	}
+	.btn-catalog {
+		font-size: 23px;
+		line-height: 29px;
+		height: 46px;
+	}
+	.swiper-controls {
+		padding: 0 15px;
+	}
+	.slider-catalog .swiper-controls {
+		padding-bottom: 40px;
+		padding-top: 30px;
+	}
+	.item-achievement__value {
+		font-size: 55px;
+		line-height: 53px;
+	}
+	.item-news {
+		border-bottom: none;
+	}
+	.link-more {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.tags-news {
+		font-size: 16px;
+	}
+	.link-big {
+		font-size: 18px;
+		line-height: 23px;
+	}
+	.bottom-button {
+		padding-top: 24px;
+	}
+	.section-news {
+		padding-bottom: 40px;
+	}
+	.list-payments img {
+		max-width: 50px;
+		max-height: 30px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.billbord__subtitle {
+		font-size: 19px;
+		line-height: 33px;
+		padding-left: 10px;
+	}
+	.billbord__title {
+		font-size: 28px;
+		line-height: 23px;
+	}
+	.billbord__descr {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.billbord__descr img {
+		max-width: 84px;
+		margin-left: 8px;
+	}
+	.head-section__bigtitle {
+		font-size: 66px;
+		line-height: 166px;
+	}
+	.head-section__bigtitle_small {
+		font-size: 10px;
+		line-height: 25px;
+	}
+	.item-advantage__content {
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.item-logo {
+		height: 65px;
+	}
+	.head-section {
+		margin-top: 49px;
+	}
+	.slider-catalog .swiper-slide {
+		width: 300px;
+	}
+	.item-catalog__image {
+		height: 230px;
+	}
+	.item-catalog__title {
+		font-size: 19px;
+		line-height: 25px;
+		padding: 19px 15px;
+	}
+	.list-page {
+		font-size: 15px;
+		line-height: 26px;
+	}
+	.price-main {
+		font-size: 30px;
+		line-height: 32px;
+	}
+	.price-main span {
+		font-size: 11px;
+		line-height: 10px;
+	}
+	.item-feature {
+		font-size: 11px;
+		line-height: 13px;
+	}
+	.logo-catalog img {
+		max-width: 105px;
+	}
+	.badges-wrapper {
+		top: 11px;
+		left: 10px;
+	}
+	.item-badge {
+		margin-right: 9px;
+	}
+	.logo-catalog {
+		top: 10px;
+		right: 10px;
+	}
+	.btn-catalog {
+		font-size: 18px;
+		line-height: 26px;
+		height: 39px;
+	}
+	.item-catalog__flex {
+		margin-bottom: 15px;
+	}
+	.item-achievement__value {
+		font-size: 40px;
+		line-height: 42px;
+	}
+	.item-achievement__title {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.item-achievement p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.section-achievements {
+		padding-bottom: 20px;
+	}
+	.item-feature span {
+		font-size: 12px;
+		line-height: 13px;
+		margin-bottom: 1px;
+	}
+	.title-big {
+		font-size: 45px;
+		line-height: 64px;
+	}
+	.item-news__title {
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+	.item-news__content {
+		display: block;
+	}
+	.item-news__image {
+		margin-right: 0;
+		margin-bottom: 12px;
+	}
+	.item-news {
+		padding-bottom: 0;
+	}
+	.billbord_inner .billbord__subtitle {
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.billbord_inner .billbord__title {
+		font-size: 40px;
+		line-height: 60px;
+	}
+	.billbord__text {
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 20px;
+	}
+	.billbord_inner {
+		height: 300px;
+	}
+	.copyright {
+		font-size: 14px;
+		line-height: 25px;
+		padding-top: 20px;
+	}
+	.section-billbord > .container {
+		padding: 0;
+	}
+	.billbord > img,
+	.billbord {
+		border-radius: 0;
+	}
+	.bottom-button {
+		padding-top: 30px;
+	}
+	.link-big {
+		font-size: 16px;
+		line-height: 21px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1400px) {
+	.container {
+		max-width: 1380px;
+	}
+}
+@media (min-width: 1640px) {
+	.container {
+		max-width: 1600px;
+	}
+}
