@@ -843,7 +843,7 @@ form {
 	cursor: pointer;
 }
 .item-question__head img {
-	margin-left: 5px;
+	margin-left: 20px;
 	transition: all 0.3s;
 }
 .item-question__head.active img {
