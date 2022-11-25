@@ -930,6 +930,15 @@
 .item-process:nth-child(2)::after {
 	display: block;
 }
+.swiper-scrollbar .swiper-scrollbar-drag::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 100%;
+	top: -27px;
+	bottom: -27px;
+	left: 0;
+}
 }
 
 
@@ -1105,6 +1114,13 @@
 .title-block {
     font-size: 23px;
     line-height: 38px;
+}
+.list-payments img {
+    max-width: 39px;
+    max-height: 27px;
+}
+.list-payments li {
+    margin-right: 10px;
 }
 }
 
