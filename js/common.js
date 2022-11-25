@@ -30,14 +30,26 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		} else {
 			$(".menu").slideUp(200);
 		}
-		
+	});
+
+	$(".link-big_open").click(function(e) {
+		e.preventDefault();
+		$(this).toggleClass("active");
+		$(".catalog-wrapper").toggleClass("active");
+		if ($(".catalog-wrapper .row_catalog > div:nth-child(n+9)").is(":hidden")) {
+			$(".catalog-wrapper .row_catalog > div:nth-child(n+9)").slideDown(200);
+			$(this).html("<<< SHOW LESS >>>");
+		} else {
+			$(".catalog-wrapper .row_catalog > div:nth-child(n+9)").slideUp(200);
+			$(this).html("<<< SHOW MORE >>>");
+		}
 	});
 
 	  $(".item-question__head").click(function() {
-  $(this).parent().toggleClass("active");
+  $(this).toggleClass("active");
   $(this).siblings().slideToggle(200);
-  $(this).parent().parent().parent().find(".item-question").removeClass("active");
-  $(this).parent().parent().parent().find(".item-question").find(".item-question__content").slideUp(200);
+  $(".item-question").not(this).removeClass("active");
+  $(".item-question__head").not(this).siblings(".item-question__content").slideUp(200);
 });
 
 
