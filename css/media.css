@@ -229,6 +229,9 @@
 	.section-safety {
 		padding-bottom: 130px;
 	}
+	.swiper-scrollbar {
+    max-width: 1350px;
+}
 }
 @media only screen and (max-width : 1400px) {
 	.item-advantage__icon img {
@@ -393,6 +396,9 @@
 	.service-page {
 		padding-bottom: 65px;
 	}
+	.swiper-scrollbar {
+    max-width: 1140px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -532,6 +538,9 @@
 		font-size: 15px;
 		line-height: 23px;
 	}
+		.swiper-scrollbar {
+    max-width: 890px;
+}
 }
 
 /* Medium Devices, Desktops */
