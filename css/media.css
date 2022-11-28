@@ -232,6 +232,32 @@
 	.swiper-scrollbar {
 		max-width: 1350px;
 	}
+	.item-advantage-buy__icon {
+		width: 100px;
+		height: 100px;
+		padding: 10px;
+	}
+	.buy-block .item-feature {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.buy-block .item-feature span {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.chat-icon {
+		width: 111px;
+	}
+	.buy-order__ask {
+		font-size: 13px;
+		line-height: 27px;
+	}
+	.buy-order__ask a {
+		margin-left: 8px;
+	}
+	.buy-order .list-payments {
+		margin-top: 10px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	.item-advantage__icon img {
@@ -398,6 +424,41 @@
 	}
 	.swiper-scrollbar {
 		max-width: 1140px;
+	}
+	.buy-order {
+		padding: 13px;
+	}
+	.buy-order__inner {
+		padding: 14px 14px;
+	}
+	.buy-order__buttons .btn-page {
+		font-size: 20px;
+		line-height: 29px; 	
+		width: 198px;
+	}
+	.buy-order__buttons .checkbox {
+		margin-right: 14px;
+	}
+	.buy-order__ask {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.buy-block .item-feature {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.buy-block .item-feature span {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.list-payments li {
+		margin: 0 12px;
+		margin-top: 10px;
+	}
+	.buy-order .list-payments {
+		max-width: 320px;
+		margin: 0 auto;
+		margin-top: 10px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -764,7 +825,62 @@
 	.section-safety {
 		padding-bottom: 60px;
 	}
+	.buy-block {
+		padding-top: 20px;
+		padding-bottom: 35px;
+		margin-top: 20px;
+	}
+	.buy-block .list-page {
+		margin-bottom: 14px;
+	}
+	.buy-order {
+		margin-top: 20px;
+	}
+	.advantages-buy-wrapper {
+		padding-top: 15px;
+		margin-bottom: 15px;
+	}
+	.title-small {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.buy-order__price {
+		font-size: 46px;
+		line-height: 55px;
+	}
+
+	.link-title {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.tabs-page a {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.tab-container-page {
+		padding-top: 15px;
+	}
+	.section-buy ~ .section-questions_more {
+		padding-bottom: 0;
+	}
+	.section-recommendation {
+		padding-bottom: 0;
+	}
+	.buy-order__title {
+		font-size: 16px;
+	}
+	.radio {
+		font-size: 16px;
+	}
+	.section-buy .head-page {
+		margin-bottom: 25px;
+	}
+	.section-buy .title-middle {
+		font-size: 18px;
+		line-height: 27px;
+	}
 }
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -951,6 +1067,12 @@
 		bottom: -27px;
 		left: 0;
 	}
+	.buy-order .list-payments {
+		max-width: 278px;
+	}
+	.irs--flat .irs-min, .irs--flat .irs-max {
+		font-size: 16px;
+	}
 }
 
 
@@ -1133,6 +1255,43 @@
 	}
 	.list-payments li {
 		margin-right: 10px;
+	}
+	.item-advantage-buy__icon {
+		width: 80px;
+		height: 80px;
+	}
+	.buy-block .item-feature {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.buy-block .item-feature span {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.buy-order__price {
+		font-size: 43px;
+		line-height: 41px;
+	}
+	.buy-order__buttons {
+		display: block;
+	}
+	.buy-order__buttons .checkbox {
+		margin: 0;
+		margin-bottom: 15px;
+		display: flex;
+		justify-content: center;
+	}
+	.buy-order__buttons .btn-page {
+		width: 100%;
+	}
+	.buy-order .list-payments {
+		max-width: 225px;
+	}
+	.tabs-page li {
+		margin-right: 25px;
+	}
+	.section-buy .title-middle {
+		font-size: 16px;
 	}
 }
 
