@@ -22,8 +22,8 @@
 	<link rel="stylesheet" href="libs/swiper/css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.5" />
-	<link rel="stylesheet" href="css/media.css?ver=1.5" />
+	<link rel="stylesheet" href="css/main.css?ver=1.7" />
+	<link rel="stylesheet" href="css/media.css?ver=1.7" />
 </head>
 <body> 
 
@@ -37,8 +37,8 @@
 							<div class="logo-descr__value">OB</div>
 							<div class="logo-descr__text">THE LEADING PLATFORM FOR IN-GAME SERVICES FROM PRO PLAYERS</div>
 						</div>
-						<a href="#" class="link-page">LOG IN</a>
-						<a href="#" class="link-page link-page_main">REGISTER</a>
+						<a href="#sign-in" class="link-page fancybox">LOG IN</a>
+						<a href="#sign-up" class="link-page link-page_main fancybox">REGISTER</a>
 					</div>
 					<div class="header__center">
 						<a href="#" class="logo">ONLY BOOST</a>
@@ -703,6 +703,89 @@
 		
 	</div>
 
+	<div id="sign-up" class="modal-block">
+		<div class="modal-wrap">
+			<div class="modal-head">
+				<a href="#" class="logo">ONLY BOOST</a>
+				<div class="modal-name">REGISTER</div>
+			</div>
+			<form>
+				<div class="item-form">
+					<div class="item-form__icon">
+						<img src="img/ic_mail.png" alt="alt">
+					</div>
+					<input type="email" placeholder="your@mail.com" required="required">
+				</div>
+				<div class="item-form">
+					<div class="item-form__icon">
+						<img src="img/ic_password.png" alt="alt">
+					</div>
+					<input type="password" placeholder="**********" required="required">
+				</div>
+				<div class="title-input">NOTIFY CHANNEL</div>
+				<div class="item-form">
+					<input type="text" placeholder="FACEBOOK" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="DISCORD" required="required">
+				</div>
+				<div class="form-bottom">
+					<div class="form-bottom__left">
+						<div class="form-bottom__text">Already a member?</div>
+						<a href="#sign-in" class="btn-simple fancybox">LOG IN</a>
+					</div>
+					<div class="form-bottom__right">
+						<button class="btn-page">SIGN UP</button>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required="required" />
+								<span>I accept the agreement</span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="sign-in" class="modal-block">
+		<div class="modal-wrap">
+			<div class="modal-head">
+				<a href="#" class="logo">ONLY BOOST</a>
+				<div class="modal-name">LOG IN</div>
+			</div>
+			<form>
+				<div class="item-form">
+					<div class="item-form__icon">
+						<img src="img/ic_mail.png" alt="alt">
+					</div>
+					<input type="email" placeholder="your@mail.com" required="required">
+				</div>
+				<div class="item-form">
+					<div class="item-form__icon">
+						<img src="img/ic_password.png" alt="alt">
+					</div>
+					<input type="password" placeholder="**********" required="required">
+				</div>
+				<div class="form-bottom">
+					<div class="form-bottom__left">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" />
+								<span>remember my data</span>
+							</label>
+						</div>
+					</div>
+					<div class="form-bottom__right">
+						<button class="btn-page">SIGN IN</button>
+						<br>
+						<a href="#" class="link-forgot">Forgot Email \ Password?</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -718,7 +801,7 @@
 <script src="libs/swiper/js/swiper-bundle.min.js"></script>
 <script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.5"></script>
+<script src="js/common.js?ver=1.7"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
