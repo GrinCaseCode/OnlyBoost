@@ -102,15 +102,23 @@ $(".range-main_buy .range-main__input").ionRangeSlider({
 	});
 
 
-	$('.slider').slick({
+	$('.slider-images').slick({
 		arrows: true,
-		dots: true,
-		infinite: true,
+		dots: false,
+		infinite: false,
 		touchThreshold: 1000,
-		slidesToShow: 1,
+		slidesToShow: 2,
 		slidesToScroll: 1,
-		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
-		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		prevArrow: '<div class="slick-prev slick-arrow"><img src="img/prev.svg" alt="alt"><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><img src="img/next.svg" alt="alt"><div/>',
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+		]
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
