@@ -137,6 +137,49 @@ $(document).mouseup(function (e) {
 		$(selectTab2).fadeIn(200);
 	}); 
 
+	$('.item-chat').click(function(event) {
+		event.preventDefault();
+		$(this).siblings().removeClass('active');
+		$(this).addClass('active');
+		$(".chat__pane").fadeOut(0);
+		var selectTab3 = $(this).attr("href");
+		$(selectTab3).fadeIn(200);
+		$(".chat__nav").addClass('chat__nav_mob');
+	}); 
+
+	$('.back-chat').click(function(event) {
+		event.preventDefault();
+		$(".chat__nav").removeClass('chat__nav_mob');
+		$(".chat__pane").fadeOut(200);
+	}); 
+
+	
+
+	{
+  if ($(window).width() < 768) { 
+$('.item-chat').click(function() {
+	$('html').animate({ 
+      scrollTop: $(".chat").offset().top - 70
+        }, 0 
+        );
+	}); 
+   
+
+  }
+}
+
+$('.notification-content .more-notification').click(function(event) {
+		event.preventDefault();
+		$(this).parent().siblings(".notification-content__text").toggleClass("active");
+		if ($(".notification-content__text").hasClass("active")) {
+			
+			$(this).html("<< close");
+		} else {
+			
+			$(this).html(">> READ ALL");
+		}
+	}); 
+
 	$('.slider-catalog').each(function(){
 		var swiper = new Swiper(this, {
 			direction: 'horizontal',

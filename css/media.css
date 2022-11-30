@@ -334,19 +334,59 @@
 		padding: 0 7px;
 	}
 	.custom-select__text {
+		font-size: 11px;
+		margin-right: 5px;
+	}
+	.table-orders__title {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.table-orders__price {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.custom-select__item {
+		margin-right: 21px;
+	}
+	.chat__tabs {
+		padding: 30px 25px;
+		font-size: 13px;
+		line-height: 18px;
+		margin: 15px;
+		margin-left: 0;
+	}
+	.send-message textarea {
+		    height: 110px;
+    font-size: 13px;
+    line-height: 17px;
+    padding: 3px;
+		margin-right: 20px;
+	}
+	.date-chat {
     font-size: 11px;
-    margin-right: 5px;
 }
-.table-orders__title {
-    font-size: 20px;
-    line-height: 20px;
+.name-chat {
+    font-size: 12px;
+    line-height: 16px;
     }
-    .table-orders__price {
-    font-size: 30px;
-    line-height: 30px;
+    .image-chat {
+    width: 60px;
+    height: 60px;
 }
-.custom-select__item {
-    margin-right: 21px;
+.item-chat {
+    padding: 8px 5px;
+    font-size: 12px;
+    }
+    .item-notification__status,
+    .notification-content {
+    	font-size: 13px;
+    }
+    .item-notification__title {
+    font-size: 20px;
+    line-height: 21px;
+}
+.notification-content__text {
+    max-width: 506px;
     }
 }
 
@@ -622,17 +662,32 @@
 		width: 100px;
 	}
 	.custom-select__item {
-    margin-right: 10px;
+		margin-right: 10px;
+	}
+	.table-orders table td {
+		padding: 15px 0;
+		padding-right: 10px;
+	}
+	.table-orders__title {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.item-chat__content {
+    padding-left: 5px;
 }
-.table-orders table td {
-    padding: 15px 0;
-    padding-right: 10px;
-    }
-    .table-orders__title {
-    font-size: 16px;
+.item-chat__text {
+    font-size: 12px;
     line-height: 20px;
+    }
+    .order-chat {
+    font-size: 11px;
+    line-height: 24px;
 }
+.notification-content__head {
+    margin-bottom: 6px;
+    }
 }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.logo-descr__value {
@@ -833,7 +888,7 @@
 	.table-orders td,
 	.table-orders tbody,
 	.table-orders table {
-	display: block;
+		display: block;
 	}
 	.table-orders table td {
 		padding: 5px 0;
@@ -841,47 +896,54 @@
 	}
 	.table-orders tr {
 		padding: 10px 0;
-		    border-top: 2px solid #000;
+		border-top: 2px solid #000;
 	}
 	.table-orders table td:nth-child(8), .table-orders table td:nth-child(9), .table-orders table td:nth-child(7), .table-orders table td:nth-child(5), .table-orders table td:nth-child(2) {
-    text-align: center;
+		text-align: center;
+	}
+	.table-orders table td:nth-child(2),
+	.table-orders table td:nth-child(3),
+	.table-orders table td:nth-child(5),
+	.table-orders table td:nth-child(6),
+	.table-orders table td:nth-child(8),
+	.table-orders table td:nth-child(9) {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.page-account_inner {
+		padding-bottom: 60px;
+	}
+	.table-orders table td:nth-child(2),
+	.table-orders table td:nth-child(5) {
+		text-align: right;
+		padding-right: 20px;
+	}
+	.table-orders table td:nth-child(4) .table-orders__value {
+		margin: 0 auto;
+	}
+	.table-orders table td:nth-child(3),
+	.table-orders table td:nth-child(2),
+	.table-orders table td:nth-child(5),
+	.table-orders table td:nth-child(6) {
+		width: 130px;
+		padding-right: 0;
+	}
+	.table-orders table td:nth-child(3),
+	.table-orders table td:nth-child(6) {
+		text-align: left;
+		padding-left: 20px;	
+	}
+	.table-orders table td:nth-child(8),
+	.table-orders table td:nth-child(9) {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.chat__tabs {
+    padding: 20px 15px;
 }
-.table-orders table td:nth-child(2),
-.table-orders table td:nth-child(3),
-.table-orders table td:nth-child(5),
-.table-orders table td:nth-child(6),
-.table-orders table td:nth-child(8),
-.table-orders table td:nth-child(9) {
-	display: inline-block;
-	vertical-align: middle;
-}
-.page-account_inner {
-	padding-bottom: 60px;
-}
-.table-orders table td:nth-child(2),
-.table-orders table td:nth-child(5) {
-	text-align: right;
-	padding-right: 20px;
-}
-.table-orders table td:nth-child(4) .table-orders__value {
-	margin: 0 auto;
-}
-.table-orders table td:nth-child(3),
-.table-orders table td:nth-child(2),
-.table-orders table td:nth-child(5),
-.table-orders table td:nth-child(6) {
-	width: 130px;
-	padding-right: 0;
-}
-.table-orders table td:nth-child(3),
-.table-orders table td:nth-child(6) {
-	text-align: left;
-	padding-left: 20px;	
-}
-.table-orders table td:nth-child(8),
-.table-orders table td:nth-child(9) {
-	padding-left: 5px;
-	padding-right: 5px;
+.item-notification__title {
+    font-size: 18px;
+    line-height: 20px;
 }
 }
 
@@ -1222,6 +1284,12 @@
 	.row_selects {
 		margin-top: 10px;
 	}
+	.notifications-wrapper {
+		columns: 1;
+	}
+	.item-notification {
+		margin-bottom: 25px;
+	}
 }
 
 
@@ -1516,6 +1584,105 @@
 	.order-main__flex .value-order + .value-order {
 		text-align: right;
 	}
+	.chat__nav {
+		margin-left: 0;
+	}
+	.chat {
+    margin-top: 25px;
+}
+.chat__tabs {
+	margin: 15px;
+	padding: 0;
+	border-radius: 6px;
+}
+.chat-wrapper {
+	min-height: auto;
+}
+.list-messages {
+    padding-right: 0;
+    max-height: initial;
+    }
+    .send-message {
+    	display: block;
+    	margin-top: 20px;
+    }
+    .send-message textarea {
+    	margin-bottom: 15px;
+    	width: 100%;
+    }
+    .send-message .btn-simple {
+    	width: 100%;
+    }
+    .chat__nav {
+    	transition: all 0.6s;
+    	position: relative;
+    	left: 0;
+    }
+    .chat__nav_mob {
+    	left: -700px;
+    	position: absolute;
+    }
+    .chat__pane:nth-child(2) {
+    	display: none;
+    }
+    .chat__pane {
+    	padding: 20px 15px;
+    }
+    .send-message textarea {
+    	height: 108px;
+    	margin-right: 0;
+    }
+    .item-message_you {
+    text-align: left;
+    margin-left: 0;
+}
+.item-message {
+	margin-top: 30px;
+}
+.item-message_you .head-message__content, 
+.item-message_you .head-message {
+    flex-direction: row;
+}
+.item-message_you .head-message__content {
+    margin-left: 13px;
+    margin-right: 0;
+}
+.date-chat {
+    font-size: 12px;
+}
+.order-chat {
+    font-size: 12px;
+}
+.name-chat {
+    font-size: 14px;
+    line-height: 19px;
+}
+.head-message__content {
+	margin-bottom: 0;
+}
+.item-chat__text {
+    font-size: 13px;
+    line-height: 21px;
+}
+.back-chat {
+	width: 100%;
+		font-size: 20px;
+	margin-bottom: 15px;
+	display: flex;
+}
+.back-chat i {
+	font-size: 17px;
+	margin-right: 20px;
+}
+.notification-content__bottom {
+	padding-top: 10px;
+}
+.notification-content__text.active::before {
+	width: 4px;
+}
+.notification-content__text.active {
+	padding-left: 17px;
+}
 }
 
 
@@ -1771,6 +1938,13 @@
 	.order-main {
 		padding-left: 15px;
 	}
+	.item-notification__title {
+    font-size: 16px;
+    line-height: 18px;
+}
+.page-account_inner {
+    padding-bottom: 45px;
+}
 }
 
 /* Custom, iPhone Retina */
