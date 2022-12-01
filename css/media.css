@@ -356,38 +356,38 @@
 		margin-left: 0;
 	}
 	.send-message textarea {
-		    height: 110px;
-    font-size: 13px;
-    line-height: 17px;
-    padding: 3px;
+		height: 110px;
+		font-size: 13px;
+		line-height: 17px;
+		padding: 3px;
 		margin-right: 20px;
 	}
 	.date-chat {
-    font-size: 11px;
-}
-.name-chat {
-    font-size: 12px;
-    line-height: 16px;
-    }
-    .image-chat {
-    width: 60px;
-    height: 60px;
-}
-.item-chat {
-    padding: 8px 5px;
-    font-size: 12px;
-    }
-    .item-notification__status,
-    .notification-content {
-    	font-size: 13px;
-    }
-    .item-notification__title {
-    font-size: 20px;
-    line-height: 21px;
-}
-.notification-content__text {
-    max-width: 506px;
-    }
+		font-size: 11px;
+	}
+	.name-chat {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.image-chat {
+		width: 60px;
+		height: 60px;
+	}
+	.item-chat {
+		padding: 8px 5px;
+		font-size: 12px;
+	}
+	.item-notification__status,
+	.notification-content {
+		font-size: 13px;
+	}
+	.item-notification__title {
+		font-size: 20px;
+		line-height: 21px;
+	}
+	.notification-content__text {
+		max-width: 506px;
+	}
 }
 
 
@@ -673,19 +673,19 @@
 		line-height: 20px;
 	}
 	.item-chat__content {
-    padding-left: 5px;
-}
-.item-chat__text {
-    font-size: 12px;
-    line-height: 20px;
-    }
-    .order-chat {
-    font-size: 11px;
-    line-height: 24px;
-}
-.notification-content__head {
-    margin-bottom: 6px;
-    }
+		padding-left: 5px;
+	}
+	.item-chat__text {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.order-chat {
+		font-size: 11px;
+		line-height: 24px;
+	}
+	.notification-content__head {
+		margin-bottom: 6px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -939,12 +939,12 @@
 		padding-right: 5px;
 	}
 	.chat__tabs {
-    padding: 20px 15px;
-}
-.item-notification__title {
-    font-size: 18px;
-    line-height: 20px;
-}
+		padding: 20px 15px;
+	}
+	.item-notification__title {
+		font-size: 18px;
+		line-height: 20px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -1588,101 +1588,101 @@
 		margin-left: 0;
 	}
 	.chat {
-    margin-top: 25px;
-}
-.chat__tabs {
-	margin: 15px;
-	padding: 0;
-	border-radius: 6px;
-}
-.chat-wrapper {
-	min-height: auto;
-}
-.list-messages {
-    padding-right: 0;
-    max-height: initial;
-    }
-    .send-message {
-    	display: block;
-    	margin-top: 20px;
-    }
-    .send-message textarea {
-    	margin-bottom: 15px;
-    	width: 100%;
-    }
-    .send-message .btn-simple {
-    	width: 100%;
-    }
-    .chat__nav {
-    	transition: all 0.6s;
-    	position: relative;
-    	left: 0;
-    }
-    .chat__nav_mob {
-    	left: -700px;
-    	position: absolute;
-    }
-    .chat__pane:nth-child(2) {
-    	display: none;
-    }
-    .chat__pane {
-    	padding: 20px 15px;
-    }
-    .send-message textarea {
-    	height: 108px;
-    	margin-right: 0;
-    }
-    .item-message_you {
-    text-align: left;
-    margin-left: 0;
-}
-.item-message {
-	margin-top: 30px;
-}
-.item-message_you .head-message__content, 
-.item-message_you .head-message {
-    flex-direction: row;
-}
-.item-message_you .head-message__content {
-    margin-left: 13px;
-    margin-right: 0;
-}
-.date-chat {
-    font-size: 12px;
-}
-.order-chat {
-    font-size: 12px;
-}
-.name-chat {
-    font-size: 14px;
-    line-height: 19px;
-}
-.head-message__content {
-	margin-bottom: 0;
-}
-.item-chat__text {
-    font-size: 13px;
-    line-height: 21px;
-}
-.back-chat {
-	width: 100%;
+		margin-top: 25px;
+	}
+	.chat__tabs {
+		margin: 15px;
+		padding: 0;
+		border-radius: 6px;
+	}
+	.chat-wrapper {
+		min-height: auto;
+	}
+	.list-messages {
+		padding-right: 0;
+		max-height: initial;
+	}
+	.send-message {
+		display: block;
+		margin-top: 20px;
+	}
+	.send-message textarea {
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	.send-message .btn-simple {
+		width: 100%;
+	}
+	.chat__nav {
+		transition: all 0.6s;
+		position: relative;
+		left: 0;
+	}
+	.chat__nav_mob {
+		left: -700px;
+		position: absolute;
+	}
+	.chat__pane:nth-child(2) {
+		display: none;
+	}
+	.chat__pane {
+		padding: 20px 15px;
+	}
+	.send-message textarea {
+		height: 108px;
+		margin-right: 0;
+	}
+	.item-message_you {
+		text-align: left;
+		margin-left: 0;
+	}
+	.item-message {
+		margin-top: 30px;
+	}
+	.item-message_you .head-message__content, 
+	.item-message_you .head-message {
+		flex-direction: row;
+	}
+	.item-message_you .head-message__content {
+		margin-left: 13px;
+		margin-right: 0;
+	}
+	.date-chat {
+		font-size: 12px;
+	}
+	.order-chat {
+		font-size: 12px;
+	}
+	.name-chat {
+		font-size: 14px;
+		line-height: 19px;
+	}
+	.head-message__content {
+		margin-bottom: 0;
+	}
+	.item-chat__text {
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.back-chat {
+		width: 100%;
 		font-size: 20px;
-	margin-bottom: 15px;
-	display: flex;
-}
-.back-chat i {
-	font-size: 17px;
-	margin-right: 20px;
-}
-.notification-content__bottom {
-	padding-top: 10px;
-}
-.notification-content__text.active::before {
-	width: 4px;
-}
-.notification-content__text.active {
-	padding-left: 17px;
-}
+		margin-bottom: 15px;
+		display: flex;
+	}
+	.back-chat i {
+		font-size: 17px;
+		margin-right: 20px;
+	}
+	.notification-content__bottom {
+		padding-top: 10px;
+	}
+	.notification-content__text.active::before {
+		width: 4px;
+	}
+	.notification-content__text.active {
+		padding-left: 17px;
+	}
 }
 
 
@@ -1939,12 +1939,12 @@
 		padding-left: 15px;
 	}
 	.item-notification__title {
-    font-size: 16px;
-    line-height: 18px;
-}
-.page-account_inner {
-    padding-bottom: 45px;
-}
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.page-account_inner {
+		padding-bottom: 45px;
+	}
 }
 
 /* Custom, iPhone Retina */
