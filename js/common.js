@@ -33,8 +33,6 @@ $("input[type='file']").change(function(){
 	}
 });
 
-
-
 /*range slider*/
 
 $(".range-main_buy .range-main__input").ionRangeSlider({
@@ -47,11 +45,24 @@ $(".range-main_buy .range-main__input").ionRangeSlider({
 	//кнопка sandwich
 	$(".sandwich").click(function() {
 		$(this).toggleClass("active");
-		if ($(".menu").is(":hidden")) {
-			$(".menu").slideDown(200);
+				$(".overlay-main").fadeOut(0);
+		$(".nav-dropdown").slideUp(200);
+		if ($(".menu-dropdown").is(":hidden")) {
+			$(".menu-dropdown").slideDown(200);
 		} else {
-			$(".menu").slideUp(200);
+			$(".menu-dropdown").slideUp(200);
 		}
+	});
+
+
+	$(".btn-search").click(function(e) {
+		e.preventDefault();	
+		$(".search-block").addClass("active");
+	});
+
+	$(".location-selected").click(function(e) {
+		e.preventDefault();	
+		$(".location-unit__list").slideToggle(200);
 	});
 
 	$(".link-big_open").click(function(e) {
@@ -90,23 +101,45 @@ $(".range-main_buy .range-main__input").ionRangeSlider({
 	});
 
 	$(".custom-select_single .custom-select__dropdown li").click(function() {
-		 var tx = $(this).html()
+		var tx = $(this).html()
 		$(this).parent().parent().parent().find(".custom-select__item span").html(tx);
 		$(this).parent().parent().slideUp(200);
 	});
 
 	$(".custom-select_multiple .custom-select__dropdown li").click(function() {
-		 var tx2 = $(this).html()
+		var tx2 = $(this).html()
 		$(this).parent().parent().parent().find(".custom-select__value").append('<div class="custom-select__item">'+ tx2 +'<div class="remove-select">🞪</div></div>');
 		$(this).parent().parent().slideUp(200);
 	});
 
-$(document).mouseup(function (e) {
-        var container = $(".custom-select");
-        if (container.has(e.target).length === 0){
-          $(".custom-select__dropdown").slideUp(200);
-        }
-      });
+	$(document).mouseup(function (e) {
+		var container = $(".custom-select");
+		if (container.has(e.target).length === 0){
+			$(".custom-select__dropdown").slideUp(200);
+		}
+	});
+
+	$(document).mouseup(function (e) {
+		var container2 = $(".search-block");
+		if (container2.has(e.target).length === 0){
+			$(".search-block").removeClass("active");
+		}
+	});
+
+	$(document).mouseup(function (e) {
+		var container3 = $(".location-unit");
+		if (container3.has(e.target).length === 0){
+			$(".location-unit__list").slideUp(200);
+		}
+	});
+
+	$(document).mouseup(function (e) {
+		var container4 = $(".menu-wrapper");
+		if (container4.has(e.target).length === 0){
+			$(".menu-dropdown").slideUp(200);
+				$(".sandwich").removeClass("active")
+		}
+	});
 
 
 
@@ -153,22 +186,35 @@ $(document).mouseup(function (e) {
 		$(".chat__pane").fadeOut(200);
 	}); 
 
+
+	$('.scroll-down').click(function(event) {
+		event.preventDefault();
+		$(".overlay-main").fadeToggle(0);
+		$(".nav-dropdown").slideToggle(200);
+	}); 
+
+	$('.overlay-main').click(function(event) {
+		event.preventDefault();
+		$(".overlay-main").fadeOut(0);
+		$(".nav-dropdown").slideUp(200);
+	}); 
+
 	
 
 	{
-  if ($(window).width() < 768) { 
-$('.item-chat').click(function() {
-	$('html').animate({ 
-      scrollTop: $(".chat").offset().top - 70
-        }, 0 
-        );
-	}); 
-   
+		if ($(window).width() < 768) { 
+			$('.item-chat').click(function() {
+				$('html').animate({ 
+					scrollTop: $(".chat").offset().top - 70
+				}, 0 
+				);
+			}); 
 
-  }
-}
 
-$('.notification-content .more-notification').click(function(event) {
+		}
+	}
+
+	$('.notification-content .more-notification').click(function(event) {
 		event.preventDefault();
 		$(this).parent().siblings(".notification-content__text").toggleClass("active");
 		if ($(".notification-content__text").hasClass("active")) {
@@ -221,6 +267,19 @@ $('.notification-content .more-notification').click(function(event) {
 			}
 		}
 		]
+	});
+
+	$('.slider-offers').slick({
+		arrows: false,
+		dots: false,
+		infinite: false,
+		touchThreshold: 1000,
+		variableWidth: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><img src="img/prev.svg" alt="alt"><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><img src="img/next.svg" alt="alt"><div/>',
+
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
