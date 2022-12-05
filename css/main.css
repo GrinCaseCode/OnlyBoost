@@ -2991,6 +2991,9 @@ img[src="#"] {
     color: #44b300;
     border-color: #44b300;
 }
+.name-offer:hover {
+    color: #44b300;
+}
 .overlay-main {
 	position: fixed;
 	z-index: 4;
