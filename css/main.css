@@ -3101,3 +3101,6 @@ img[src="#"] {
 	font-family: 'object-fit: cover;';
 	border-radius: 6px;
 }
+.menu-dropdown .search-form {
+	display: none;
+}

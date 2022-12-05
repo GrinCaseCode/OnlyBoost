@@ -1419,6 +1419,13 @@
 		border-radius: 0;
 		padding-bottom: 130px;
 	}
+	.menu-dropdown .search-form  {
+		display: flex;
+		margin-bottom: 15px;
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
 }
 
 
