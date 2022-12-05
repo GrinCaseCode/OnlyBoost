@@ -22,14 +22,14 @@
 	<link rel="stylesheet" href="libs/swiper/css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.10" />
-	<link rel="stylesheet" href="css/media.css?ver=1.10" />
+	<link rel="stylesheet" href="css/main.css?ver=1.14" />
+	<link rel="stylesheet" href="css/media.css?ver=1.14" />
 </head>
-<body> 
+<body>
 
 	<div class="wrapper">
 
-		<header class="header">
+		<header class="header default">
 			<div class="container">
 				<div class="header__wrapper">
 					<div class="header__content hidden-mob">
@@ -46,21 +46,201 @@
 					</div>
 					<div class="header__content">
 						<div class="header__right">
-							<a href="#" class="btn-search">
-								<img src="img/search.svg" alt="alt">
-							</a>
-							<div class="location-unit">
-								<a href="#" class="location-value"><img src="img/eu.png" alt="alt">EUR</a>
+							<div class="search-block">
+								<div class="search-form">
+									<button class="button-search">
+										<img src="img/search.svg" alt="alt">
+									</button>
+									<input type="text" placeholder="Search text" required="required">
+								</div>
+								<a href="#" class="btn-search">
+									<img src="img/search.svg" alt="alt">
+								</a>
 							</div>
-							<span class='sandwich'>
-								<span class='sw-topper'></span>
-								<span class='sw-bottom'></span>
-								<span class='sw-footer'></span>
-							</span>
+							<div class="location-unit">
+								<div class="location-selected location-value"><img src="img/eu.png" alt="alt">EUR</div>
+								<div class="location-unit__list">
+									<ul>
+										<li><a href="#" class="location-value"><img src="img/usd.png" alt="alt">USD</a></li>
+										<li><a href="#" class="location-value"><img src="img/rus.png" alt="alt">RUB</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="menu-wrapper">
+								<span class='sandwich'>
+									<span class='sw-topper'></span>
+									<span class='sw-bottom'></span>
+									<span class='sw-footer'></span>
+								</span>
+								<div class="menu-dropdown">
+									<ul class="menu">
+										<li><a href="#">About Us</a></li>
+										<li><a href="#">Blog</a></li>
+										<li><a href="#">Contact Us</a></li>
+										<li><a href="#">Become a PRO</a></li>
+										<li><a href="#">Cashback</a></li>
+										<li><a href="#">Legit</a></li>
+										<li><a href="#">Customer Service</a></li>
+										<li><br></li>
+										<li><a href="#">Login as PRO</a></li>
+										<li><a href="#">Sitemaps</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
+					</div>
+					<div class="nav-dropdown">
+						<ul class="nav-list">
+							<li><a href="#">Destiny 2</a></li>
+							<li><a href="#">Final Fantasy</a></li>
+							<li><a href="#">Fifa</a></li>
+							<li><a href="#">Geneshin impact</a></li>
+							<li><a href="#">Heartstone</a></li>
+							<li><a href="#">World of Warcraft</a></li>
+							<li><a href="#">Final Fantasy</a></li>
+							<li><a href="#">Cal of Duty Warzone</a></li>
+							<li><a href="#">World of Tanks</a></li>
+							<li><a href="#">Final Fantasy</a></li>
+						</ul>
+						<div class="nav-dropdown__title">POPULAR OFFERS</div>
+						<ul class="slider-offers">
+							<li>
+								<a href="#" class="name-offer">Heartstone</a>
+								<a href="#" class="item-offer">
+									<span class="item-offer__image">
+										<img src="img/offer1.jpg" alt="alt">
+									</span>
+									<span class="item-offer__content">
+										<span class="item-offer__top">
+											<span class="item-offer__title">Arena Wins</span>
+											<span class="item-offer__click">clic to show more</span>
+										</span>
+										<span class="item-offer__bottom">
+											<ul class="list-page">
+												<li>Up to 12 Wins</li>
+												<li>Fair Price</li>
+												<li>Complete Safety</li>
+											</ul>
+											<span class="item-offer__price"><span>from</span> 8€</span>
+										</span>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="name-offer">Destiny 2</a>
+								<a href="#" class="item-offer">
+									<span class="item-offer__image">
+										<img src="img/offer2.jpg" alt="alt">
+									</span>
+									<span class="item-offer__content">
+										<span class="item-offer__top">
+											<span class="item-offer__title">King's Fall Raid</span>
+											<span class="item-offer__click">clic to show more</span>
+										</span>
+										<span class="item-offer__bottom">
+											<ul class="list-page">
+												<li>Unique Loot</li>
+												<li>Fair Price</li>
+												<li>Complete Safety</li>
+											</ul>
+											<span class="item-offer__price"><span>from</span> 16€</span>
+										</span>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="name-offer">World of Tanks</a>
+								<a href="#" class="item-offer">
+									<span class="item-offer__image">
+										<img src="img/offer3.jpg" alt="alt">
+									</span>
+									<span class="item-offer__content">
+										<span class="item-offer__top">
+											<span class="item-offer__title">Any Tier-X Tank</span>
+											<span class="item-offer__click">clic to show more</span>
+										</span>
+										<span class="item-offer__bottom">
+											<ul class="list-page">
+												<li>Any Tier-X Tank</li>
+												<li>Fair Price</li>
+												<li>Quick Delivery</li>
+											</ul>
+											<span class="item-offer__price">155€</span>
+										</span>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="name-offer">FIFA</a>
+								<a href="#" class="item-offer">
+									<span class="item-offer__image">
+										<img src="img/offer4.jpg" alt="alt">
+									</span>
+									<span class="item-offer__content">
+										<span class="item-offer__top">
+											<span class="item-offer__title">FIFA Coaching</span>
+											<span class="item-offer__click">clic to show more</span>
+										</span>
+										<span class="item-offer__bottom">
+											<ul class="list-page">
+												<li>Coaching With Pros</li>
+												<li>Fair Price</li>
+												<li>Safety Guaranteed</li>
+											</ul>
+											<span class="item-offer__price"><span>from</span> 8€</span>
+										</span>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="name-offer">Heartstone</a>
+								<a href="#" class="item-offer">
+									<span class="item-offer__image">
+										<img src="img/offer1.jpg" alt="alt">
+									</span>
+									<span class="item-offer__content">
+										<span class="item-offer__top">
+											<span class="item-offer__title">Arena Wins</span>
+											<span class="item-offer__click">clic to show more</span>
+										</span>
+										<span class="item-offer__bottom">
+											<ul class="list-page">
+												<li>Up to 12 Wins</li>
+												<li>Fair Price</li>
+												<li>Complete Safety</li>
+											</ul>
+											<span class="item-offer__price"><span>from</span> 8€</span>
+										</span>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="name-offer">Destiny 2</a>
+								<a href="#" class="item-offer">
+									<span class="item-offer__image">
+										<img src="img/offer2.jpg" alt="alt">
+									</span>
+									<span class="item-offer__content">
+										<span class="item-offer__top">
+											<span class="item-offer__title">King's Fall Raid</span>
+											<span class="item-offer__click">clic to show more</span>
+										</span>
+										<span class="item-offer__bottom">
+											<ul class="list-page">
+												<li>Unique Loot</li>
+												<li>Fair Price</li>
+												<li>Complete Safety</li>
+											</ul>
+											<span class="item-offer__price"><span>from</span> 16€</span>
+										</span>
+									</span>
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
+			<div class="overlay-main"></div>
 		</header>
 
 		<section class="page-account page-account_inner">
@@ -406,7 +586,7 @@
 <script src="libs/swiper/js/swiper-bundle.min.js"></script>
 <script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.10"></script>
+<script src="js/common.js?ver=1.14"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
