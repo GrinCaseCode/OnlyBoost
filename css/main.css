@@ -18,7 +18,7 @@
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
 	
-}
+} 
 body input:required:valid,
 body textarea:required:valid {
 	
