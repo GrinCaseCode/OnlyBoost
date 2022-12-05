@@ -2988,7 +2988,8 @@ img[src="#"] {
 	display: block;
 }
 .nav-list a:hover {
-	color: #000;
+    color: #44b300;
+    border-color: #44b300;
 }
 .overlay-main {
 	position: fixed;
